@@ -1,0 +1,68 @@
+.heading
+{
+    
+    background-color: rgb(231, 239, 243);
+    text-align: center;
+    position: fixed;
+    right: 485px;
+}
+
+.name
+{
+    font-size: xx-large;
+    
+}
+
+.future_me
+{
+    font-size: xx-large;
+    
+}
+
+.address 
+{
+    font-size: large;
+    
+}
+
+.email_id 
+{
+    font-size: large;
+    
+}
+
+.summary
+{
+    background-color: ivory;   
+}
+
+.head_1
+{
+    color: rgb(51, 174, 223);
+    text-align: center;
+}
+
+.program
+{
+    display: inline-block;
+}
+
+.pro_date
+{
+    float: right;
+}
+
+.education
+{
+    background-color: ivory;
+}
+
+.hunt
+{
+    display: inline-block;
+}
+
+.projects
+{
+    background-color: ivory;
+}

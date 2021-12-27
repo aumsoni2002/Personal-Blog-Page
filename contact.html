@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h1 class="contact">Contact Me</h1>
+    <p class="please">Please fill in your information, and I will contact you as soon as possible.</p>
+    <form name="contact_form" action="https://formspree.io/f/xoqrqwre" onsubmit="return validate_form()" method="post">
+
+        <div id="name">
+            <label for="fname">Name*:</label>&emsp;<span class="name_error"></span><br>
+            <input class="input" type="text" id="fname" name="fname" required placeholder="First Name">
+            <input class="input" type="text" id="lname" name="lname" required placeholder="Last Name"><br><br>
+        </div>
+        
+
+        <div id="email">
+            <label for="email">Email Address*:</label>&emsp;<span class="name_error"></span><br>
+            <input name="email" class="input" type="text" id="email" required placeholder="Valid Email Address"><br><br>
+        </div>
+        
+        <div id="address">
+            <label for="address">Address*:</label><br>
+            <textarea class="input" id="address" name="address" rows="7" cols="70" required placeholder="Valid Home Address"></textarea><br><br>
+        </div>
+
+        <div id="postal">
+            <label for="postal">Postal Code*:</label>&emsp;<span class="name_error"></span><br>
+            <input class="input" type="text" id="postal" name="postal" required placeholder="Valid Postal Code"><br><br>
+        </div>
+        
+        <div id="city">
+            <label for="city">City*:</label><br>
+            <input class="input" type="text" id="city" name="id" placeholder="Valid City"><br><br>
+        </div>
+        
+
+        <div id="about">
+            <span class="about">What is This About:</span><br>
+            <input class="input" type="radio" id="question" name="about" value="Question" onclick="about_box()">
+            <label for="question">Question</label><br>
+            <input class="input" type="radio" id="comment" name="about" value="Comment" onclick="about_box()">
+            <label for="comment">Comment</label><br>
+            <input class="input" type="radio" id="hiring" name="about" value="Hiring" onclick="about_box()">
+            <label for="hiring">Hiring</label><br><br>
+            <p id="box_about"></p>
+            
+            <div>
+                <textarea class="input" id="aboutBox" name="message" rows="7" cols="70" required placeholder="Type Your Message"></textarea><br><br>
+            </div>
+            
+        </div>
+        
+        <br>
+        <input class="submit" name="submit" type="submit" value="Submit">
+        <input class="reset" type="reset" name="reset" type="reset" value="Reset">
+    </form>
+
+    
+
+    <script src="contact.js"></script>
+</body>
+</html>

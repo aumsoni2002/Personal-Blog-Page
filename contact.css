@@ -1,0 +1,70 @@
+.contact
+{
+    text-align: center;
+    padding: 10px;
+}
+
+
+form
+{
+    border: 2px solid rgb(140, 142, 143);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 700px;
+    position: relative;
+    left: 370px;
+    box-shadow: 10px 10px rgb(140, 142, 143);
+}
+
+body
+{
+    background-color: rgb(226, 215, 211);
+}
+
+.submit
+{
+    font-size: medium;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(197, 216, 228);
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+
+.reset
+{
+    font-size: medium;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(197, 216, 228);
+    float: right;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+}
+
+.input
+{
+    background-color: rgb(226, 226, 225);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.please
+{
+    font-size: larger;
+    font-style: italic;
+}
+
+.name_error
+{
+    font-size: small;
+    color: red;
+}
